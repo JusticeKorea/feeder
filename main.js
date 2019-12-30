@@ -13,6 +13,8 @@ client.on("warn", console.warn);
 
 client.on("error", console.error);
 
+client.user.setActivity('.play -> 🎵 ', { type: 'WATCHING' });
+
 client.on("ready", () => console.log("Yo this ready!"));
 
 client.on("disconnect", () =>
